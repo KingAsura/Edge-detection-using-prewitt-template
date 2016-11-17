@@ -3,7 +3,7 @@ clear all;
 prewitt_v = [-1,0,1;-1,0,1;-1,0,1];
 prewitt_h = [-1,-1,-1;0,0,0;1,1,1];
 
-img = imread('clock.jpg');
+img = imread('tower.jpg');
 img = rgb2gray(img);
 
 [row,column]= size(img);
